@@ -26,11 +26,16 @@ public class Demo03 {
             a[2] = j;
             System.out.println(a[0] / a[2]);
         } catch (
+
                 ArrayIndexOutOfBoundsException |  InputMismatchException  | ArithmeticException  e) {
             System.out.println("数组越界了");
             System.out.println("数据格式不正确异常");
             System.out.println("算术异常");
             System.out.println("以上异常中的一个");
+           /**Array    Index   OutOf  Bounds  Exception 数组   索引   超出    边界   异常
+            Input Mismatch    Exception   输入    不匹配    异常
+            Arithmetic     Exception      数学数字   异常*/
+
         }
     }
 }
